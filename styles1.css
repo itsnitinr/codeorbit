@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.underline {
+    display: inline-block;
+}
+
+.underline:after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: white;
+    transition: 300ms;
+}
+
+.underline:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.underline:hover:after {
+    width: 100%;
+}
+
+.leftnav {
+    width: 25%;
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    height: 100%;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.learn-icon {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2rem;
+}
+
+.code-link {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-family: Montserrat;
+}
+
+.rightdiv {
+    float: right;
+    width: 75%;
+}
+
+.cpp, .python, .java, .javascript, .htmlcss {
+    padding: 2rem;
+    font-family: Montserrat;
+}
+
+.skill-heading {
+    font-family: Raleway;
+}
+
+.skill-desc {
+    font-size: 1.25rem;
+}
